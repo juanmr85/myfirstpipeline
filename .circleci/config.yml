@@ -16,9 +16,9 @@ jobs:
           command: |
             python3 -m venv venv
             source venv/bin/activate
+            pip install -r requirements.txt
             python3 -m pip install --upgrade pip
             pip install --upgrade flake8
-            pip freeze > requirements.txt
       # Step 3: ejecutamos linters y flake8 y lanzamos casos de prueba
       - run:
           name: run tests
