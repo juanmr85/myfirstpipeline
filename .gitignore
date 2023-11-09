@@ -1,2 +1,3 @@
-.requirements*
-.Dockerfile*
+.requirements.txt
+.Dockerfile
+.git/
