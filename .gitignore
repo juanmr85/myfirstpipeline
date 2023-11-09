@@ -1,3 +1,16 @@
-.requirements.txt
-.Dockerfile
+# Adhoc
+requirements.txt
+Dockerfile
 .git/
+
+# Environments
+.env
+.env.old
+.venv
+.venv.old
+env/
+venv/
+ENV/
+env.bak/
+env.old/
+venv.bak/
