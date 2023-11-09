@@ -1,6 +1,6 @@
 # Adhoc
 requirements.txt
-Dockerfile
+*Dockerfile
 .git/
 
 # Environments
